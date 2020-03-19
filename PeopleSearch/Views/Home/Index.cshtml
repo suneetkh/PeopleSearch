@@ -1,1 +1,110 @@
-﻿<h2>Welcome to ASP.NET MVC @ViewData["Version"] on @ViewData["Runtime"]!</h2>
+﻿@{
+    ViewData["Title"] = "People Search";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #myInput {
+            background-image: url('/css/searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            width: 100%;
+            font-size: 16px;
+            padding: 12px 20px 12px 40px;
+            border: 1px solid #ddd;
+            margin-bottom: 12px;
+        }
+
+        #myTable {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd;
+            font-size: 18px;
+        }
+
+            #myTable th, #myTable td {
+                text-align: left;
+                padding: 12px;
+            }
+
+            #myTable tr {
+                border-bottom: 1px solid #ddd;
+            }
+
+                #myTable tr.header, #myTable tr:hover {
+                    background-color: #f1f1f1;
+                }
+    </style>
+</head>
+<body>
+
+    <h2>People Search</h2>
+
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search with First Last or Last Name" title="Type in a name">
+
+    <table id="myTable">
+        <tr class="header">
+            <th style="width:30%;">Name</th>
+            <th style="width:30%;">Address</th>
+            <th style="width:30%;">Age</th>
+            <th style="width:30%;">Interests</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Germany</td>
+            <td>34</td>
+            <td>Sports</td>
+        </tr>
+        <tr>
+            <td>Berglunds snabbkop</td>
+            <td>Sweden</td>
+            <td>24</td>
+            <td>Adventure</td>
+        </tr>
+        <tr>
+            <td>Island Trading</td>
+            <td>UK</td>
+            <td>29</td>
+            <td>Movies</td>
+        </tr>
+        <tr>
+            <td>Koniglich Essen</td>
+            <td>Germany</td>
+            <td>38</td>
+            <td>World</td>
+        </tr>
+        <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Canada</td>
+            <td>34</td>
+            <td>Sports</td>
+        </tr>
+        <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Italy</td>
+            <td>34</td>
+            <td>Sports</td>
+        </tr>
+        <tr>
+            <td>North/South</td>
+            <td>UK</td>
+            <td>45</td>
+            <td>Politics</td>
+        </tr>
+        <tr>
+            <td>Paris specialites</td>
+            <td>France</td>
+            <td>33</td>
+            <td>Travel</td>
+        </tr>
+    </table>
+    <script src="~/js/main.js"></script>
+</body>
+</html>
