@@ -1,10 +1,11 @@
 ﻿using System;
 namespace PeopleSearch.DataAccessLayer
 {
-    public class EmptyClass
+    public class People
     {
-        public EmptyClass()
+        public void DisplayPeople()
         {
+            //To be implmented when DB is connected; the connection string can be made in config file.
         }
     }
 }
