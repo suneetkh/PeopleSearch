@@ -18,7 +18,7 @@ namespace PeopleSearch.Tests.Controllers
             // Arrange
             var controller = new HomeController();
 
-            // Act
+            // Act 2
             var result = (ViewResult)controller.Index();
 
             var mvcName = typeof(Controller).Assembly.GetName();
