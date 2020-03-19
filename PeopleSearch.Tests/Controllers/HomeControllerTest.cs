@@ -18,7 +18,7 @@ namespace PeopleSearch.Tests.Controllers
             // Arrange
             var controller = new HomeController();
 
-            // Act 2
+            // Act
             var result = (ViewResult)controller.Index();
 
             var mvcName = typeof(Controller).Assembly.GetName();
@@ -30,6 +30,22 @@ namespace PeopleSearch.Tests.Controllers
             // Assert
             Assert.AreEqual(expectedVersion, result.ViewData["Version"]);
             Assert.AreEqual(expectedRuntime, result.ViewData["Runtime"]);
+        }
+
+
+        [Test]
+        public void SearchResult()
+        {
+            // Arrange
+            var controller = new HomeController();
+
+            // Atc
+            JsonResult result = controller.SearchResults("al") as JsonResult;
+
+            // Assert
+            Assert.IsNotNull(result.Data);
+
+
         }
     }
 }
