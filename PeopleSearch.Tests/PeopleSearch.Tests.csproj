@@ -76,13 +76,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PeopleSearch\PeopleSearch.csproj">
-      <Project>{479F8CF4-0E6F-494D-A5E2-E2C69F134D72}</Project>
-      <Name>PeopleSearch</Name>
-      <ReferenceSourceTarget>ProjectReference</ReferenceSourceTarget>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Controllers\HomeControllerTest.cs" />
   </ItemGroup>
   <ItemGroup>
