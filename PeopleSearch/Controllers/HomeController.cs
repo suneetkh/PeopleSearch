@@ -11,6 +11,7 @@ namespace PeopleSearch.Controllers
     {
         public ActionResult Index()
         {
+            //returns view
             return View();
         }
     }
