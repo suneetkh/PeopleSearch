@@ -99,6 +99,8 @@
     <Content Include="packages.config" />
     <Content Include="css\site.css" />
     <Content Include="js\main.js" />
+    <Content Include="images\img1.png" />
+    <Content Include="images\img2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>

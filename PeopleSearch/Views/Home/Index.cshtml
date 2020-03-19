@@ -6,101 +6,98 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        #myInput {
-            background-image: url('/css/searchicon.png');
-            background-position: 10px 10px;
-            background-repeat: no-repeat;
-            width: 100%;
-            font-size: 16px;
-            padding: 12px 20px 12px 40px;
-            border: 1px solid #ddd;
-            margin-bottom: 12px;
-        }
-
-        #myTable {
-            border-collapse: collapse;
-            width: 100%;
-            border: 1px solid #ddd;
-            font-size: 18px;
-        }
-
-            #myTable th, #myTable td {
-                text-align: left;
-                padding: 12px;
-            }
-
-            #myTable tr {
-                border-bottom: 1px solid #ddd;
-            }
-
-                #myTable tr.header, #myTable tr:hover {
-                    background-color: #f1f1f1;
-                }
-    </style>
 </head>
 <body>
 
     <h2>People Search</h2>
 
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search with First Last or Last Name" title="Type in a name">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search with Name" title="Type in a name">
 
     <table id="myTable">
         <tr class="header">
+            <th></th>
             <th style="width:30%;">Name</th>
-            <th style="width:30%;">Address</th>
+            <th style="width:45%;">Address</th>
             <th style="width:30%;">Age</th>
             <th style="width:30%;">Interests</th>
         </tr>
         <tr>
-            <td>Alfreds Futterkiste</td>
-            <td>Germany</td>
+            <td><img src="~/images/img1.png" alt="Avatar"></td>
+            <td>Alfreds Kiste</td>
+            <td>
+                6 Alderwood Court
+                Gulfport, MS 39503
+            </td>
             <td>34</td>
             <td>Sports</td>
         </tr>
         <tr>
-            <td>Berglunds snabbkop</td>
-            <td>Sweden</td>
+            <td><img src="~/images/img2.png" alt="Avatar"></td>
+            <td>Bergan Fay</td>
+            <td>
+                7941 Tailwater Drive
+                Blackwood, NJ 08012
+            </td>
             <td>24</td>
             <td>Adventure</td>
         </tr>
         <tr>
-            <td>Island Trading</td>
-            <td>UK</td>
+            <td><img src="~/images/img1.png" alt="Avatar"></td>
+            <td>Ricky Martyn</td>
+            <td>
+                707 North Willow Street
+                Latrobe, PA 15650
+            </td>
             <td>29</td>
             <td>Movies</td>
         </tr>
         <tr>
-            <td>Koniglich Essen</td>
-            <td>Germany</td>
+            <td><img src="~/images/img1.png" alt="Avatar"></td>
+            <td>Tom Essen</td>
+            <td>
+                252 North University Dr.
+                Dorchester, MA 02125
+            </td>
             <td>38</td>
             <td>World</td>
         </tr>
         <tr>
-            <td>Laughing Bacchus Winecellars</td>
-            <td>Canada</td>
+            <td><img src="~/images/img1.png" alt="Avatar"></td>
+            <td>Tom   Winecl</td>
+            <td>
+                200 Pearl Street
+                Holbrook, NY 11741
+            </td>
             <td>34</td>
             <td>Sports</td>
         </tr>
         <tr>
-            <td>Magazzini Alimentari Riuniti</td>
-            <td>Italy</td>
+            <td><img src="~/images/img2.png" alt="Avatar"></td>
+            <td>Evan Riuniti</td>
+            <td>
+                70 South Lantern Drive
+                Dublin, CA 94551
+            </td>
             <td>34</td>
-            <td>Sports</td>
+            <td>Food</td>
         </tr>
         <tr>
-            <td>North/South</td>
-            <td>UK</td>
+            <td><img src="~/images/img2.png" alt="Avatar"></td>
+            <td>Judiee Lee</td>
+            <td>
+                71 Kew St
+                Pinova, UT 44312
+            </td>
             <td>45</td>
             <td>Politics</td>
         </tr>
         <tr>
-            <td>Paris specialites</td>
-            <td>France</td>
+            <td><img src="~/images/img2.png" alt="Avatar"></td>
+            <td>Marie Spark</td>
+            <td>
+                70 South Lantern Drive
+                Akron, OH 44312
+            </td>
             <td>33</td>
             <td>Travel</td>
         </tr>
