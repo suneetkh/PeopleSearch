@@ -1,11 +1,6 @@
 ﻿using NUnit.Framework;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Web.Mvc;
-using PeopleSearch;
-using PeopleSearch.Controllers;
 
 namespace PeopleSearch.Tests.Controllers
 {
@@ -32,20 +27,5 @@ namespace PeopleSearch.Tests.Controllers
             Assert.AreEqual(expectedRuntime, result.ViewData["Runtime"]);
         }
 
-
-        [Test]
-        public void SearchResult()
-        {
-            // Arrange
-            var controller = new HomeController();
-
-            // Atc
-            JsonResult result = controller.SearchResults("al") as JsonResult;
-
-            // Assert
-            Assert.IsNotNull(result.Data);
-
-
-        }
     }
 }
