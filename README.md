@@ -13,7 +13,7 @@
 
 ## Sample Screen Shot 
 
-The screen shots attched are from Safari broweser. However, the applications runs on all platforms (IE, Edge, Mozilla, Chrome etc.).
+The screen shots attached are from Safari browser. However, this application runs on all browser (IE, Edge, Mozilla, Chrome etc.).
 
 ![picture alt](https://github.com/suneetkh/PeopleSearch/blob/master/PeopleSearch/images/ss1.png "Screen Shot 1")
 ![picture alt](https://github.com/suneetkh/PeopleSearch/blob/master/PeopleSearch/images/ss2.png "Screen Shot 2")
