@@ -13,11 +13,13 @@
 
 ## Sample Screen Shot 
 
+The screen shots attched are from Safari broweser. However, the applications runs on all platforms (IE, Edge, Mozilla, Chrome etc.).
+
 ![picture alt](https://github.com/suneetkh/PeopleSearch/blob/master/PeopleSearch/images/ss1.png "Screen Shot 1")
 ![picture alt](https://github.com/suneetkh/PeopleSearch/blob/master/PeopleSearch/images/ss2.png "Screen Shot 2")
 
 
 ## Simulation of Slow Search
-In order to simulate a slow search, I used Google Chrome's developer tools to throttle the connection speed.
+In order to simulate a slow search, I used Google Chrome's developer tool to throttle the connection speed.
 
 The throttle settings are under the Network tab on the top right where it says "Offline" and "No throttling". I used the "Slow 3G" and "Offline" presets, but custom speeds and latency settings are also available. I first let the page load before throttling the connection, this way only the search operation is slowed.
