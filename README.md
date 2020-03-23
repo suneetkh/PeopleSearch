@@ -13,4 +13,4 @@
 
 ## Sample Screen Shot 
 
-![picture alt](https://camo.githubusercontent.com/f4c8ddca85894d524d2c66c0e1d7a6fe84b3cbd4/687474703a2f2f7669612e706c616365686f6c6465722e636f6d2f32303078313530 "Title is optional")
+![picture alt](https://github.com/suneetkh/PeopleSearch/blob/master/PeopleSearch/images/img1.png" Screen Shot 1")
