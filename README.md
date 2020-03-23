@@ -13,5 +13,5 @@
 
 ## Sample Screen Shot 
 
-![picture alt](https://github.com/suneetkh/PeopleSearch/blob/master/PeopleSearch/images/ss11.png "Screen Shot 1")
-![picture alt](https://github.com/suneetkh/PeopleSearch/blob/master/PeopleSearch/images/iss21.png "Screen Shot 2")
+![picture alt](https://github.com/suneetkh/PeopleSearch/blob/master/PeopleSearch/images/ss1.png "Screen Shot 1")
+![picture alt](https://github.com/suneetkh/PeopleSearch/blob/master/PeopleSearch/images/ss2.png "Screen Shot 2")
