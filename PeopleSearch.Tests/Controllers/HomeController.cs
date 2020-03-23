@@ -9,6 +9,7 @@ namespace PeopleSearch.Tests.Controllers
         {
         }
 
+
         internal ViewResult Index()
         {
             throw new NotImplementedException();
