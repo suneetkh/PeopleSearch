@@ -22,6 +22,7 @@ The screen shots attached are from Safari browser. However, this application run
 
 ### API / Service / Data Access
 * Application created with Visual Studio Community for Mac (I tested on a Windows 10 machine using Visual Studio 2017.
+* The design/architectural pattern used is Model-View-Controller (MVC).
 * The web technology I used for front end is JavaScipt.
 * .NET Core 2
 * Microsoft SQL Server
