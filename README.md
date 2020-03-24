@@ -28,6 +28,7 @@ The screen shots attached are from Safari browser. However, this application run
 * Microsoft SQL Server
 
 ### How to start the Web API:
+* Clone this repository on a local machine.
 * Install Visual Studio 2017 if you havn't already.
 * Open the PeopleSearch.snl with Visual Studio.
 * Click the 'Run' button on the Visual Studio tool bar.
