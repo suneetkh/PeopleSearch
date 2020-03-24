@@ -18,6 +18,21 @@ The screen shots attached are from Safari browser. However, this application run
 ![picture alt](https://github.com/suneetkh/PeopleSearch/blob/master/PeopleSearch/images/ss1.png "Screen Shot 1")
 ![picture alt](https://github.com/suneetkh/PeopleSearch/blob/master/PeopleSearch/images/ss2.png "Screen Shot 2")
 
+## Application Tooling
+
+### API / Service / Data Access
+* Application created with Visual Studio Community for Mac (I tested on a Windows 10 machine using Visual Studio 2017.
+* The web technology I used for front end is JavaScipt.
+* .NET Core 2
+* Microsoft SQL Server
+
+### How to start the Web API:
+* Install Visual Studio 2017 if you havn't already.
+* Open the PeopleSearch.snl with Visual Studio.
+* Click the 'Run' button on the Visual Studio tool bar.
+* This should open a browser window pointed to http://127.0.0.1:8080
+
+Note: I did my best to make sure the solution would load, build and run without any problems. If you face any issue loading, building or running the project, please email me at srk.suneet@gmail.com and I'd be happy to correct the issue.
 
 ## Simulation of Slow Search
 In order to simulate a slow search, I used Google Chrome's developer tool to throttle the connection speed.
